@@ -43,10 +43,10 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 ├── `404.html` <br>
 ├── `LICENSE.txt` <br>
 ├── `ReadMe.md` <br>
-├── `browserconfig.xml`*<br>
+├── `browserconfig.xml`*(1)*<br>
 ├── css <br>
 │  ├── `main.css`: Die CSS-Datei für das Styling der Webseite. <br>
-│  └── `normalize.css`* <br>
+│  └── `normalize.css`*(2)* <br>
 ├── doc <br>
 │  ├── `TOC.md`<br>
 │  ├── `css.md`<br>
@@ -57,19 +57,19 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │  ├── `misc.md`<br>
 │  └── `usage.md`<br>
 ├── `favicon.ico`<br>
-├── `humans.txt`*<br>
+├── `humans.txt`*(3)*<br>
 ├── `icon.png`<br>
 ├── img<br>
 ├── `index.html`: Die Haupt-HTML-Datei mit der Grundstruktur der Webseite. <br>
 ├── js<br>
 │  ├── `main.js`: Die JavaScript-Datei für benutzerdefinierten Code. <br>
-│  ├── `plugins.js`*<br>
+│  ├── `plugins.js`*(4)*<br>
 │  └── `vendor`<br>
 │      └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
-├── `package.json`*<br>
-├── `robots.txt`*<br>
-├── `site.webmanifest`*<br>
+├── `package.json`*(5)*<br>
+├── `robots.txt`*(6)*<br>
+├── `site.webmanifest`*(7)*<br>
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
