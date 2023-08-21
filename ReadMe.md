@@ -79,7 +79,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 <<<<<<< HEAD
 <<<<<<< HEAD
 ├── `package.json`_(5)_<br>
-├── `robots.txt`_(6)_<br>
+├── `robots.txt`_(6)Eine robots.txt Datei ist eine Textdatei, in der man hinterlegen kann, welche Verzeichnisse von den Suchmaschinen gelesen werden dürfen und welche nicht._<br>
 ├── `site.webmanifest`_(7)_<br>
 =======
 ├── `package.json`*(5)*<br> Code Explanation
