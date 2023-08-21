@@ -60,13 +60,13 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ ├── `TOC.md`<br>
 │ ├── `css.md`<br>
 │ ├── `extend.md`<br>
-│ ├── `faq.md`<br>
+│ ├── `faq.md`<br> das ist nur ein Test
 │ ├── `html.md`<br>
 │ ├── `js.md`<br>
 │ ├── `misc.md`<br>
 │ └── `usage.md`<br>
 ├── `favicon.ico`<br>
-├── `humans.txt`Diese Datei dient dazu, Informationen über die Personen zu liefern, die an der Entwicklung einer Website beteiligt waren. Es ist eine Art "Kredit" für die Entwickler und Designer. Sie ist nicht für Maschinen gedacht, sondern für Menschen.<br>
+├── `humans.txt` Diese Datei dient dazu, Informationen über die Personen zu liefern, die an der Entwicklung einer Website beteiligt waren. Es ist eine Art "Kredit" für die Entwickler und Designer. Sie ist nicht für Maschinen gedacht, sondern für Menschen.<br>
 ├── `icon.png`<br>
 ├── img<br>
 ├── `index.html`: Die Haupt-HTML-Datei mit der Grundstruktur der Webseite. <br>
@@ -76,8 +76,6 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `vendor`<br>
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
-<<<<<<< HEAD
-<<<<<<< HEAD
 ├── `package.json`_(5)_<br>
 ├── `robots.txt`_(6)_<br>
 ├── `site.webmanifest`_(7)_<br>
