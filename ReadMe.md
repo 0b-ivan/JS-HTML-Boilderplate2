@@ -72,9 +72,26 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `vendor`<br>
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
+<<<<<<< HEAD
 ├── `package.json`_(5)_<br>
 ├── `robots.txt`_(6)_<br>
 ├── `site.webmanifest`_(7)_<br>
+=======
+├── `package.json`*(5)*<br> Code Explanation
+This is a package.json file that defines the metadata and dependencies for a Node.js project.
+
+The name, version, description, keywords, license, and author fields provide basic information about the project.
+
+The scripts section defines a set of scripts that can be run with npm run <script-name>.
+
+build script runs the Parcel bundler to build the project for production by creating a dist directory containing the optimized version of the project.
+dev script runs Parcel in development mode by starting a development server that reloads files automatically when they change.
+start script runs the build and dev scripts in sequence.
+test script is not implemented.
+The devDependencies section lists the dependencies that are only required during development. In this case, the only dev dependency is parcel-bundler, which is used to build and serve the project.
+├── `robots.txt`*(6)*<br>
+├── `site.webmanifest`*(7)*<br>
+>>>>>>> 307a38a (Team 5 described package.jason in ReadMe.md)
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
