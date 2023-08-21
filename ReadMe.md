@@ -46,7 +46,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 ├── `browserconfig.xml`*(1)*<br>
 ├── css <br>
 │  ├── `main.css`: Die CSS-Datei für das Styling der Webseite. <br>
-│  └── `normalize.css`*(2)* <br>
+│  └── `normalize.css`*(2 Enrico)* <br>
 ├── doc <br>
 │  ├── `TOC.md`<br>
 │  ├── `css.md`<br>
