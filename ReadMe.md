@@ -43,7 +43,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 ├── `404.html` <br>
 ├── `LICENSE.txt` <br>
 ├── `ReadMe.md` <br>
-├── `browserconfig.xml`*(1)*<br>
+├── `browserconfig.xml`*(1: Die Datei "browserconfig.xml" ist eine Anleitung für Webbrowser, die einer Webseite sagt, wie sie sich verhalten und bestimmte Symbole anzeigen sollen.)*<br>
 ├── css <br>
 │  ├── `main.css`: Die CSS-Datei für das Styling der Webseite. <br>
 │  └── `normalize.css`*(2)* <br>
