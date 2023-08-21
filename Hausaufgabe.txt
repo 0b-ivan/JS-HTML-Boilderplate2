@@ -1,2 +1,6 @@
 Dennis Diepolder
+<<<<<<< HEAD
 Jonathan Epp
+=======
+Bartlomiej Idzinski
+>>>>>>> ef9aac02525a49712518088ecf690ab4655dbe4d
