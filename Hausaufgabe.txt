@@ -1,8 +1,6 @@
 Dennis Diepolder
-<<<<<<< HEAD
 Pablo Reufer
 Arberat Dushi
 Mathias Popow
-=======
 Bartlomiej Idzinski
 
