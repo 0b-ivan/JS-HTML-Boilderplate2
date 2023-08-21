@@ -48,7 +48,11 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 ├── `404.html` <br>
 ├── `LICENSE.txt` <br>
 ├── `ReadMe.md` <br>
+<<<<<<< HEAD
+├── `browserconfig.xml`*(1: Die Datei "browserconfig.xml" ist eine Anleitung für Webbrowser, die einer Webseite sagt, wie sie sich verhalten und bestimmte Symbole anzeigen sollen.)*<br>
+=======
 ├── `browserconfig.xml`_(1)_<br>
+>>>>>>> d41cb5e23dbf95249f541176d937e977d395d901
 ├── css <br>
 │ ├── `main.css`: Die CSS-Datei für das Styling der Webseite. <br>
 │ └── `normalize.css`_(2 vereinheitlicht die Standard-Stile verschiedener Browser, um für ein konsistentes Aussehen von Webseiten zu sorgen.)_ <br>
@@ -73,6 +77,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
 <<<<<<< HEAD
+<<<<<<< HEAD
 ├── `package.json`_(5)_<br>
 ├── `robots.txt`_(6)_<br>
 ├── `site.webmanifest`_(7)_<br>
@@ -92,6 +97,11 @@ The devDependencies section lists the dependencies that are only required during
 ├── `robots.txt`*(6)*<br>
 ├── `site.webmanifest`*(7)*<br>
 >>>>>>> 307a38a (Team 5 described package.jason in ReadMe.md)
+=======
+├── `package.json`*(5)*<br>
+├── `robots.txt`*(6)*<br>
+├── `site.webmanifest`*(7)*<br>
+>>>>>>> a7f06f14be714e3064c86b2a455e22b2c70885da
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
