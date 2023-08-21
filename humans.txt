@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Abi
+    Evelyn
+    Dennis
 
 # THANKS
 
-    <name>
+    Techstarter
 
 # TECHNOLOGY COLOPHON
 
