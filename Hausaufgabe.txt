@@ -1,16 +1,11 @@
 Dennis Diepolder
-<<<<<<< HEAD
 Pablo Reufer
 Arberat Dushi
-Mathias Popow
-Bartlomiej Idzinski
-
-=======
 Flamur Imeri
 Bartlomiej Idzinski
 Stefan Klose
 Levent Ovalioglu
 Christoph Raupach
 Timour Miagol
-Mathias  popow
->>>>>>> db17b4652467c54b2994f9b1990318ce8f668ef0
+Mathias  Popow
+Jonathan Epp
