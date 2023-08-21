@@ -56,13 +56,13 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ ├── `TOC.md`<br>
 │ ├── `css.md`<br>
 │ ├── `extend.md`<br>
-│ ├── `faq.md`<br>
+│ ├── `faq.md`<br> das ist nur ein Test
 │ ├── `html.md`<br>
 │ ├── `js.md`<br>
 │ ├── `misc.md`<br>
 │ └── `usage.md`<br>
 ├── `favicon.ico`<br>
-├── `humans.txt`Diese Datei dient dazu, Informationen über die Personen zu liefern, die an der Entwicklung einer Website beteiligt waren. Es ist eine Art "Kredit" für die Entwickler und Designer. Sie ist nicht für Maschinen gedacht, sondern für Menschen.<br>
+├── `humans.txt` Diese Datei dient dazu, Informationen über die Personen zu liefern, die an der Entwicklung einer Website beteiligt waren. Es ist eine Art "Kredit" für die Entwickler und Designer. Sie ist nicht für Maschinen gedacht, sondern für Menschen.<br>
 ├── `icon.png`<br>
 ├── img<br>
 ├── `index.html`: Die Haupt-HTML-Datei mit der Grundstruktur der Webseite. <br>
@@ -72,8 +72,6 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `vendor`<br>
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
-<<<<<<< HEAD
-<<<<<<< HEAD
 ├── `package.json`_(5)_<br>
 ├── `robots.txt`_(6)Eine robots.txt Datei ist eine Textdatei, in der man hinterlegen kann, welche Verzeichnisse von den Suchmaschinen gelesen werden dürfen und welche nicht._<br>
 ├── `site.webmanifest`_(7)_<br>
@@ -91,13 +89,17 @@ start script runs the build and dev scripts in sequence.
 test script is not implemented.
 The devDependencies section lists the dependencies that are only required during development. In this case, the only dev dependency is parcel-bundler, which is used to build and serve the project.
 ├── `robots.txt`*(6)*<br>
-├── `site.webmanifest`*(7)*<br>
+├── `site.webmanifest`*(7)*<br>Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.
 >>>>>>> 307a38a (Team 5 described package.jason in ReadMe.md)
 =======
 ├── `package.json`*(5)*<br>
 ├── `robots.txt`*(6)*<br>
+<<<<<<< HEAD
+├── `site.webmanifest`*br>
+=======
 ├── `site.webmanifest`*(7)*<br>
 >>>>>>> a7f06f14be714e3064c86b2a455e22b2c70885da
+>>>>>>> 2fd3fc3f4a8326be91921bb69a0cd6dd3ddd4798
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
