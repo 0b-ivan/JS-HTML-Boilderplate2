@@ -1,2 +1,7 @@
 Dennis Diepolder
+<<<<<<< HEAD
 Flamur Imeri
+=======
+Bartlomiej Idzinski
+Stefan Klose
+>>>>>>> 0d133057f846bbb7613569533294e9f6cef94266
