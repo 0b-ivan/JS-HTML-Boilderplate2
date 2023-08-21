@@ -38,22 +38,22 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
       - name: Node.js with node_modules cache
-  # You may pin to the exact commit or the version.
-  # uses: magnetikonline/action-node-modules-cache@0b4ad87d575ee27fac4196064d478a9de926cfe3
-  uses: magnetikonline/action-node-modules-cache@v1
-  with:
-    # Desired Node.js version.
-    node-version: # optional
-    # Read desired Node.js version from file. Use in place of `node-version` input.
-    node-version-file: # optional
-    # Path to node_modules directory(s) for caching.
-    node-modules-path: # optional, default is node_modules
-    # Optional path(s) to be included alongside the node_modules cache artifact.
-    additional-cache-path: # optional
-    # Path to package-lock.json file(s) for caching key hash.
-    package-lock-path: # optional, default is package-lock.json
-    # Optional cache key suffix.
-    cache-key-suffix: # optional
+      # You may pin to the exact commit or the version.
+      # uses: magnetikonline/    action-node-modules-cache@0b4ad87d575ee27fac4196064d478a9de926cfe3
+        uses: magnetikonline/action-node-modules-cache@v1
+        with:
+          # Desired Node.js version.
+          node-version: 20.5.1 # optional
+          # Read desired Node.js version from file. Use in place of `node-version`  input.
+          node-version-file: # optional
+          # Path to node_modules directory(s) for caching.
+          node-modules-path: # optional, default is node_modules
+          # Optional path(s) to be included alongside the node_modules cache artifact.
+          additional-cache-path: ../package-lock.json # optional
+          # Path to package-lock.json file(s) for caching key hash.
+          package-lock-path: # optional, default is package-lock.json
+          # Optional cache key suffix.
+          cache-key-suffix: # optional
   # Deployment job
   deploy:
     environment:
