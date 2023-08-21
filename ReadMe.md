@@ -48,11 +48,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 ├── `404.html` <br>
 ├── `LICENSE.txt` <br>
 ├── `ReadMe.md` <br>
-<<<<<<< HEAD
-├── `browserconfig.xml`*(1: Die Datei "browserconfig.xml" ist eine Anleitung für Webbrowser, die einer Webseite sagt, wie sie sich verhalten und bestimmte Symbole anzeigen sollen.)*<br>
-=======
-├── `browserconfig.xml`_(1)_<br>
->>>>>>> d41cb5e23dbf95249f541176d937e977d395d901
+├── `browserconfig.xml`*(1)*<br>
 ├── css <br>
 │ ├── `main.css`: Die CSS-Datei für das Styling der Webseite. <br>
 │ └── `normalize.css`_(2 vereinheitlicht die Standard-Stile verschiedener Browser, um für ein konsistentes Aussehen von Webseiten zu sorgen.)_ <br>
@@ -76,12 +72,8 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `vendor`<br>
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
-<<<<<<< HEAD
-<<<<<<< HEAD
 ├── `package.json`_(5)_<br>
 ├── `robots.txt`_(6)Eine robots.txt Datei ist eine Textdatei, in der man hinterlegen kann, welche Verzeichnisse von den Suchmaschinen gelesen werden dürfen und welche nicht._<br>
-├── `site.webmanifest`_(7)_<br>
-=======
 ├── `package.json`*(5)*<br> Code Explanation
 This is a package.json file that defines the metadata and dependencies for a Node.js project.
 
@@ -95,17 +87,11 @@ start script runs the build and dev scripts in sequence.
 test script is not implemented.
 The devDependencies section lists the dependencies that are only required during development. In this case, the only dev dependency is parcel-bundler, which is used to build and serve the project.
 ├── `robots.txt`*(6)*<br>
-├── `site.webmanifest`*(7)*<br>Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.
->>>>>>> 307a38a (Team 5 described package.jason in ReadMe.md)
-=======
+├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.*<br>
 ├── `package.json`*(5)*<br>
 ├── `robots.txt`*(6)*<br>
-<<<<<<< HEAD
 ├── `site.webmanifest`*br>
-=======
 ├── `site.webmanifest`*(7)*<br>
->>>>>>> a7f06f14be714e3064c86b2a455e22b2c70885da
->>>>>>> 2fd3fc3f4a8326be91921bb69a0cd6dd3ddd4798
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
