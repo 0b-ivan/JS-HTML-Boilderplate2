@@ -1,4 +1,6 @@
 Dennis Diepolder
-Pablo Reufer
-Arberat Dushi
-Timour Miagol
+<<<<<<< HEAD
+Flamur Imeri
+=======
+Bartlomiej Idzinski
+Stefan Klose
