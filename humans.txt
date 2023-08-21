@@ -16,6 +16,3 @@
     CSS3, HTML5
     Apache Server Configs, jQuery, Modernizr, Normalize.css
 
-Hier ist unsere Antwort:
-
- Diese Datei dient dazu, Informationen über die Personen zu liefern, die an der Entwicklung einer Website beteiligt waren. Es ist eine Art "Kredit" für die Entwickler und Designer. Sie ist nicht für Maschinen gedacht, sondern für Menschen.
