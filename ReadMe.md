@@ -101,7 +101,7 @@ The devDependencies section lists the dependencies that are only required during
 ├── `package.json`*(5)*<br>
 ├── `robots.txt`*(6)*<br>
 <<<<<<< HEAD
-├── `site.webmanifest`Enthält die Informationen einer Webanwendung, die erforderlich sind. Wird verwendet um die Webanwendung ohne App zu öffnen und ermöglicht die offline Nutzung*<br>
+├── `site.webmanifest`*br>
 =======
 ├── `site.webmanifest`*(7)*<br>
 >>>>>>> a7f06f14be714e3064c86b2a455e22b2c70885da
