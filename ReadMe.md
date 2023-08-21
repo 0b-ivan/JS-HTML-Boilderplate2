@@ -72,9 +72,9 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `vendor`<br>
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
-├── `package.json`_(5)_<br>
-├── `robots.txt`_(6)_<br>
-├── `site.webmanifest`_(7)_<br>
+├── `package.json`*(5)*<br>
+├── `robots.txt`*(6)*<br>
+├── `site.webmanifest`*(7)*<br>
 ├── `tile-wide.png`<br>
 └── `tile.png`<br>
 
