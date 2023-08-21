@@ -1,6 +1,4 @@
 Dennis Diepolder
-<<<<<<< HEAD
 Flamur Imeri
-=======
 Bartlomiej Idzinski
 Stefan Klose
