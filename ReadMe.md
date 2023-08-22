@@ -87,7 +87,7 @@ start script runs the build and dev scripts in sequence.
 test script is not implemented.
 The devDependencies section lists the dependencies that are only required during development. In this case, the only dev dependency is parcel-bundler, which is used to build and serve the project.
 ├── `robots.txt`*(6)*<br>
-├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.*<br>
+├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung über einen Webbrowser zu installieren sind, ohne eine Notwendigkeit einer APP und offline nutzbar sind.*<br>
 ├── `package.json`*(5)*<br>
 ├── `robots.txt`*(6)*<br>
 ├── `site.webmanifest`*br>
