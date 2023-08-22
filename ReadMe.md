@@ -73,19 +73,9 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 │ └── `modernizr-3.11.2.min.js`<br>
 ├── `package-lock.json`<br>
 ├── `package.json`_(5)_<br>
-├── `robots.txt`_(6)Eine robots.txt Datei ist eine Textdatei, in der man hinterlegen kann, welche Verzeichnisse von den Suchmaschinen gelesen werden dürfen und welche nicht._<br>
-├── `package.json`*(5)*<br> Code Explanation
-This is a package.json file that defines the metadata and dependencies for a Node.js project.
-
-The name, version, description, keywords, license, and author fields provide basic information about the project.
-
-The scripts section defines a set of scripts that can be run with npm run <script-name>.
-
-build script runs the Parcel bundler to build the project for production by creating a dist directory containing the optimized version of the project.
-dev script runs Parcel in development mode by starting a development server that reloads files automatically when they change.
-start script runs the build and dev scripts in sequence.
-test script is not implemented.
-The devDependencies section lists the dependencies that are only required during development. In this case, the only dev dependency is parcel-bundler, which is used to build and serve the project.
+├── `robots.txt` *(6)Eine robots.txt Datei ist eine Textdatei, in der man hinterlegen kann, welche Verzeichnisse von den Suchmaschinen gelesen werden dürfen und welche nicht.* <br>
+#### WIP(pleas make a new shorter discription)
+├── `package.json`*(5)### >>>HERE<<< <br> 
 ├── `robots.txt`*(6)*<br>
 ├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.*<br>
 ├── `package.json`*(5)*<br>
