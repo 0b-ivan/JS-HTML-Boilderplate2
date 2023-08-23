@@ -1,6 +1,5 @@
 Bartlomiej Idzinski
 Stefan Klose
-Levent Ovalioglu
 Timour Miagol
 Mathias Popow
 Jonathan Epp
