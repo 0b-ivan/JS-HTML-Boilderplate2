@@ -2,7 +2,6 @@ Stefan Klose
 Timour Miagol
 Mathias Popow
 Jonathan Epp
-Christoph Laube
 Dino Miljanic
 MarcusTA
 Evelyn Johannsen
