@@ -1,4 +1,3 @@
-Bartlomiej Idzinski
 Stefan Klose
 Timour Miagol
 Mathias Popow
