@@ -1,1 +1,10 @@
+<<<<<<< HEAD
 dominikwieland
+=======
+Stefan Klose
+Timour Miagol
+Jonathan Epp
+Dino Miljanic
+MarcusTA
+Evelyn Johannsen
+>>>>>>> 06e1199d8c2ca55b5c8ccc9b3fb808dc6c5d84fc
