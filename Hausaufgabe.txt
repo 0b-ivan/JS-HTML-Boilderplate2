@@ -1,6 +1,5 @@
 Stefan Klose
 Timour Miagol
-Mathias Popow
 Jonathan Epp
 Dino Miljanic
 MarcusTA
