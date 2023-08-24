@@ -3,7 +3,5 @@ Timour Miagol
 Jonathan Epp
 Dino Miljanic
 MarcusTA
-<<<<<<< HEAD
 Evelyn Johannsen
-=======
->>>>>>> 5e25e0c (Änderungen an Hausaufgabe.txt nach Merge)
+
