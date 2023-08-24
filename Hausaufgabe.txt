@@ -4,5 +4,3 @@ Jonathan Epp
 Dino Miljanic
 MarcusTA
 Evelyn Johannsen
-=======
->>>>>>> 5e25e0c (Änderungen an Hausaufgabe.txt nach Merge)
