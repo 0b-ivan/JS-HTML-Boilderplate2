@@ -4,6 +4,9 @@ Jonathan Epp
 Dino Miljanic
 MarcusTA
 <<<<<<< HEAD
+<<<<<<< HEAD
 Evelyn Johannsen
 =======
 >>>>>>> 5e25e0c (Änderungen an Hausaufgabe.txt nach Merge)
+=======
+>>>>>>> 73250e4 (Änderungen an Hausaufgabe.txt nach Merge)
