@@ -77,7 +77,7 @@ Bevor du mit diesem Projekt startest, solltest du sicherstellen, dass du Folgend
 #### WIP(pleas make a new shorter discription)
 ├── `package.json`*ist ein file das Node.js verwendet um zu ermitteln welche dependencies in diesen projekt benötigt werden und im zweifel nachinstalliert werden können.* <br> 
 ├── `robots.txt`*(6)*<br>
-├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung offline nutzbar ist.*<br>
+├── `site.webmanifest`*Diese Datei enthält Informationen für eine Webanwendung, die nötig sind, damit die Anwendung über einen Webbrowser zu installieren sind, ohne eine Notwendigkeit einer APP und offline nutzbar sind.*<br>
 ├── `package.json`*(5)*<br>
 ├── `robots.txt`*(6)*<br>
 ├── `site.webmanifest`*br>
