@@ -1,7 +1,4 @@
-Arberat Dushi
-Flamur Imeri
-Bartlomiej Idzinski
-Levent Ovalioglu
+Stefan Klose
 Timour Miagol
 Jonathan Epp
 Dino Miljanic
