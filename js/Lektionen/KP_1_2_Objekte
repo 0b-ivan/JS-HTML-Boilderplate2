@@ -32,7 +32,7 @@ let person = {
     vorName: "Max",
     nachName: "Muster",
     alter: 30,
-    hobbies: ["lesen", "schwimmen", "wandern"]
+    hobbies: ["lesen", "schwimmen", "laufen"]
 };
 
 
