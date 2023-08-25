@@ -1,0 +1,24 @@
+/*
+BEISPIEL
+*/
+
+let x;  //Eine Variable namens x deklarieren
+
+/*
+AUFGABEN BEREICH
+###############################################
+
+Beschreibe die Art des Datentyps
+
+###############################################
+*/
+
+
+x = 1;              //Integer
+x = 0.01;           //Double
+x = "hello world";  //String
+x = 'JavaScript';   //String
+x = true;           //Boolean
+x = false;          //Boolean
+x = null;           //Null
+x = undefined;      //Undefined
