@@ -33,4 +33,15 @@ Erzeuge ein eigens Objekt wie im Beispiel
 ###############################################
 */
 
+let person = {
+  name: "Jonathan",
+  age: 27,
+  city: "München"
+};
 
+console.log(person.name); // Ausgabe: Jonathan
+console.log(person.age); // Ausgabe: 27
+console.log(person.city); // Ausgabe: München
+
+person.gender = "Male";
+console.log(person.gender); // Ausgabe: Male
