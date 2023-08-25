@@ -5,12 +5,18 @@ Der wichtigste Datentyp in JavaScript ist das Objekt.
 Ein Objekt ist eine Sammlung von Name/Wert-Paaren
 (bzw. eine Map, in der Zeichenketten auf Werte abgebildet werden).
 */
+let papier = {
+    bestandteile: "zellolose",
+    gewicht: 3
+}
 
-let book = {               // Objekte sind von geschweiften Klammern umschlossen.
-    topic: "JavaScript",   // Die Eigenschaft "topic" hat den Wert "JavaScript".
-    edition: 7             // Die Eigenschaft "edition" hat den Wert 7.
-    };                     // Die geschweifte Klammer markiert das Ende des Objekts.
- 
+
+let book = {               
+    topic: "JavaScript",  
+    edition: 7 
+    material: papier          
+    };                
+
 
 // Zugriff auf die Eigenschaften eines Objekts mit . oder []:
 book.topic                 // => "JavaScript"
