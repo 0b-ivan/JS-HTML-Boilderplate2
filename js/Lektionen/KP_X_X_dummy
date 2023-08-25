@@ -1,12 +1,30 @@
+// Informationen über den League of Legends Champion "Xerath":
+let xerath = {
+    name: "Xerath",
+    role: "Mage",
+    lane: "Mid",
+    attackType: "Ranged",
+    abilities: {
+        q: "Arcanopulse",
+        w: "Eye of Destruction",
+        e: "Shocking Orb",
+        r: "Rite of the Arcane"
+    },
+    skins: ["Battlecast Xerath", "Scorched Earth Xerath", "Guardian of the Sands Xerath"],
+    showAbilities: function() {
+        console.log("Abilities:");
+        for (let key in this.abilities) {
+            console.log(`${key}: ${this.abilities[key]}`);
+        }
+    }
+};
 
+// Zugriff auf Eigenschaften:
+console.log(xerath.name);      // Ausgabe: "Xerath"
+console.log(xerath.role);      // Ausgabe: "Mage"
+console.log(xerath.abilities.q);  // Ausgabe: "Arcanopulse"
 
-/*
-AUFGABEN BEREICH
-###############################################
-
-Erzeuge ein eigens Objekt wie im Beispiel
-
-###############################################
-*/
+// Aufruf der Methode:
+xerath.showAbilities();  // Gibt die Fähigkeiten von Xerath aus
 
 
