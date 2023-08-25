@@ -34,3 +34,13 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+let controller = {
+    farbe: "schwarz"
+    led: "weiß"
+    gewicht: "300 Gramm"
+    tasten: 22
+};
+
+controller.farbe
+controller["tasten"]
+
