@@ -14,11 +14,11 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              //
-x = 0.01;           //
-x = "hello world";  //
-x = 'JavaScript';   //
-x = true;           //
-x = false;          //
-x = null;           //
-x = undefined;      //
+x = 1;              // Integer
+x = 0.01;           // Double
+x = "hello world";  // String
+x = 'JavaScript';   // String 
+x = true;           // Boolean
+x = false;          // Boolean
+x = null;           // null
+x = undefined;      // undefined
