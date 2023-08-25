@@ -14,11 +14,11 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              //
-x = 0.01;           //
-x = "hello world";  //
-x = 'JavaScript';   //
-x = true;           //
-x = false;          //
-x = null;           //
-x = undefined;      //
+x = 1;              // Die Variable "x" wird mit dem numerischen Wert 1 intialisiert. (Number)
+x = 0.01;           // Die Variable "x" wird mit dem numerischen Wert 0.01 intialisiert. (Number)
+x = "hello world";  // Die Variable "x" wird mit einem Zeichenkettenwert (String) "hello world" intialisiert. (String)
+x = 'JavaScript';   // Die Variable "x" wird erneut mit einem Zeichenkettenwert "JavaScript" intialisiert. (String)
+x = true;           // Die Variable "x" wird auf den booleschen Wert "true" gesetzt. (Boolean)
+x = false;          // Die Variable "x" wird auf den booleschen Wert "false" gesetzt. (Boolean)
+x = null;           // Die Variable "x" wird auf den speziellen Wert "null" gesetzt. (Null)
+x = undefined;      // Die Variable "x" wird auf den speziellen Wert "undefined" gesetzt. (Undefined)
