@@ -33,6 +33,7 @@ Erzeuge ein eigens Objekt wie im Beispiel
 ###############################################
 */
 
+<<<<<<< HEAD
 javascript
 function Person(name, age, profession) {
   this.name = name;
@@ -41,3 +42,6 @@ function Person(name, age, profession) {
 }
 
 var person = new Person("John", 30, "Developer");
+=======
+
+>>>>>>> main
