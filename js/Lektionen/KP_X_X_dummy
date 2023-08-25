@@ -10,3 +10,17 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+
+let test = {
+    reason: "Testing",
+    repeat: 3,
+    status: "Pending",
+    participants: ["Domi", "Stefan", "Christoph"],
+    tools: {
+        software: "Javascript",
+        hardware: "Server"
+    },
+    duration: 2,
+    durationtype: "hours",
+    passed: false
+};
