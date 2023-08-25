@@ -15,7 +15,7 @@ Beschreibe die Art des Datentyps
 
 
 x = 1;              //Integer
-x = 0.01;           //Interger
+x = 0.01;           //Double
 x = "hello world";  //String
 x = 'JavaScript';   //String
 x = true;           //Boolean

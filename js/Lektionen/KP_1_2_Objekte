@@ -30,10 +30,22 @@ AUFGABEN BEREICH
 
 Erzeuge ein eigens Objekt wie im Beispiel
 
-let book = {
-    topic: "IT for Dummies"
-    edition: 70000
+let person = {
+    vorname: "Max",
+    nachname: "Mustermann",
+    alter: 30,
+    geschlecht: "männlich",
+    verheiratet: false
 };
+
+person.nachname                 //Mustermann
+person.stadt = "Berlin";        //Berlin als neue Eigenschaft durch Zuweisung
+
+console.log("Vorname: " + person.vorname);
+console.log("Nachname: " + person.nachname);
+console.log("Alter: " + person.alter);
+console.log("Geschlecht: " + person.geschlecht);
+console.log("Verheiratet: " + person.verheiratet);
 
 ###############################################
 */
