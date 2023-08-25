@@ -33,4 +33,19 @@ Erzeuge ein eigens Objekt wie im Beispiel
 ###############################################
 */
 
+let book = {               
+    topic: "JS Grundwissen",
+    edition: 89             
+    };                     
+ 
+
+
+book.topic                 
+book["edition"]            
+
+
+book.author = "Dimi";  
+book.contents = {};        
+
+book.contents?.ch01?.sect1 //
 
