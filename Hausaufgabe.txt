@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+=======
+Arberat Dushi
+Flamur Imeri
+Bartlomiej Idzinski
+Levent Ovalioglu
+>>>>>>> a4cf269 (Delete my name in Hausaufgabe.txt)
+Timour Miagol
+Jonathan Epp
+Dino Miljanic
+MarcusTA
+Evelyn Johannsen
