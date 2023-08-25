@@ -34,3 +34,8 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+let test = {
+    reason: "Testing",
+    repeat: 3
+
+};
