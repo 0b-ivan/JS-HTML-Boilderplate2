@@ -15,11 +15,11 @@ Beschreibe die Art des Datentyps
 
 
 x = 1;              // int
-x = 0.01;           // int
+x = 0.01;           // number
 x = "hello world";  // string
 x = 'JavaScript';   // string
 x = true;           // boolean
 x = false;          // boolean
-x = null;           // boolean
+x = null;           // objekt
 x = undefined;      // undefined
 
