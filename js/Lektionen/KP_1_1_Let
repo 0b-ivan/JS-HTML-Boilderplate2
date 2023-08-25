@@ -14,12 +14,13 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              // Number
-x = 0.01;           // Number
-x = "hello world";  // String
-x = 'JavaScript';   // String
-x = true;           // Boolean
-x = false;          // Boolean
-x = null;           // Null
-x = undefined;      // Undefined
+x = 1;              // Integer: Ganzzahl, keine Nachkommastellen
+x = 0.01;           // double: Gleitkommazahl, hat Nachkommastellen
+x = "hello world";  // String: Zeichenfolge, in doppelten Anführungszeichen
+x = 'JavaScript';   // String: Zeichenfolge, in einfachen Anführungszeichen
+x = true;           // Boolean: Wahrheitswert, repräsentiert "wahr"
+x = false;          // Boolean: Wahrheitswert, repräsentiert "falsch"
+x = null;           // Null: Repräsentiert das Fehlen von Wert oder Unbekannt
+x = undefined;      // Undefined: Eine Variable ohne zugewiesenen Wert
+
 
