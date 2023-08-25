@@ -1,0 +1,15 @@
+Timour Miagol
+Jonathan Epp
+Dino Miljanic
+MarcusTA
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Evelyn Johannsen
+=======
+>>>>>>> 5e25e0c (Änderungen an Hausaufgabe.txt nach Merge)
+=======
+>>>>>>> 73250e4 (Änderungen an Hausaufgabe.txt nach Merge)
+=======
+Evelyn Johannsen
+>>>>>>> 87db4eae37c86ff8c6fe3cd5240897d98165fb4a
