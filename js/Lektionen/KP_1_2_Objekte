@@ -30,6 +30,11 @@ AUFGABEN BEREICH
 
 Erzeuge ein eigens Objekt wie im Beispiel
 
+let book = {
+    topic: "IT for Dummies"
+    edition: 70000
+};
+
 ###############################################
 */
 
