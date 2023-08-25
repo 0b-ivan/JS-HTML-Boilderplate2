@@ -14,11 +14,11 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              //
-x = 0.01;           //
-x = "hello world";  //
-x = 'JavaScript';   //
-x = true;           //
-x = false;          //
-x = null;           //
-x = undefined;      //
+x = 1;              // Ganzzahl (integer)
+x = 0.01;           // Gleitkommazahl (float)
+x = "hello world";  // Zeichenkette (string)
+x = 'JavaScript';   // Zeichenkette (string)
+x = true;           // Wahrheitswert (boolean)
+x = false;          // Wahrheitswert (boolean)
+x = null;           // Nullwert (null)
+x = undefined;      // Undefinierter Wert (undefined)
