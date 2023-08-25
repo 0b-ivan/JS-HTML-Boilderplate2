@@ -28,7 +28,13 @@ book.contents?.ch01?.sect1 // => undefined: book.contents hat keine
 AUFGABEN BEREICH
 ###############################################
 
-Erzeuge ein eigens Objekt wie im Beispiel
+let person = {
+    vorName: "Max",
+    nachName: "Muster",
+    alter: 30,
+    hobbies: ["lesen", "schwimmen", "wandern"]
+};
+
 
 ###############################################
 */
