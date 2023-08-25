@@ -34,3 +34,9 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+let Thing={
+    name: "car"
+    typ: "Porsche"
+    age: "10"
+
+};
