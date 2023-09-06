@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* 
 
 Der wichtigste Datentyp in JavaScript ist das Objekt.
