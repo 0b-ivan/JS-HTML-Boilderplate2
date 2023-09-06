@@ -15,11 +15,11 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              //
-x = 0.01;           //
-x = "hello world";  //
-x = 'JavaScript';   //
-x = true;           //
-x = false;          //
-x = null;           //
-x = undefined;      //
+x = 1;              // Number (integer)
+x = 0.01;           // Number (float)
+x = "hello world";  // string (double quotes)
+x = 'JavaScript';   // string (single quotes)
+x = true;           // Wahrheitswert wahr (boolean)
+x = false;          // Wahrheitswert falsch (boolean)
+x = null;           // Nullwert (null)
+x = undefined;      // Undefinierter Wert (undefined)
