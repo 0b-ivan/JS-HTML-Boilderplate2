@@ -41,3 +41,25 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+function compairCars(Auto1, Auto2) {
+    return (
+        Auto1.Farbe === Auto2.Farbe &&
+        Auto1.AnzahlTueren === Auto2.AnzahlTueren &&
+        Auto1.Treibstoff !== Auto2.Treibstoff
+    );
+}
+
+// Beispielaufruf der Funktion mit zwei Autos
+let Auto1 = {
+    Farbe: "Blau",
+    AnzahlTueren: 4,
+    Treibstoff: "Benzin"
+};
+
+let Auto2 = {
+    Farbe: "Rot",
+    AnzahlTueren: 4,
+    Treibstoff: "Diesel"
+};
+
+console.log(compairCars(Auto1, Auto2));
