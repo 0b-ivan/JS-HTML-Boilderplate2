@@ -1,6 +1,6 @@
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
-let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
+/*let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 
 let a = "foo", d = "bar";
 //stelle in einem array -> 16 bit 
