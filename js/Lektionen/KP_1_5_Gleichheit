@@ -126,6 +126,7 @@ function  compairCars(auto1,auto2){
 auto1 = new Auto("BMW","320","1989");
 auto2 = new Auto("Audi","A3","1960");
 
-auto1.marke = "hyndai";
+auto1.marke = "hyundai";
+auto2.marke = "Ford"
 
 console.log(auto1.compairCars(auto2));
