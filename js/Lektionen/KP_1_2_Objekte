@@ -32,5 +32,35 @@ Erzeuge ein eigens Objekt wie im Beispiel
 
 ###############################################
 */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5f7d024 (neuer Versuch)
+let person = {
+  name: "Mathias",
+  age: 43,
+  city: "Goldenstedt"
+};
+
+console.log(person.name); // Ausgabe: "Mathias"
+console.log(person.age); // Ausgabe: 43
+console.log(person.city); // Ausgabe: "Goldenstedt"
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5f7d024 (neuer Versuch)
+
+let person = {
+  name: "Mathias",
+  age: 43,
+  city: "Goldenstedt"
+};
+
+console.log(person.name); // Ausgabe: "Mathias"
+console.log(person.age); // Ausgabe: 43
+console.log(person.city); // Ausgabe: "Goldenstedt"
+
+
 
 

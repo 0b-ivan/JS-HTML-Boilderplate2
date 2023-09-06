@@ -44,7 +44,9 @@ function compairCars (Auto1,Auto2)
       
 
 ###############################################
+<<<<<<< HEAD
 */
+
 
 
 class Auto {
@@ -104,4 +106,27 @@ console.log(auto1.compairCars(auto2));
 
 
 
+
+
+class Auto {
+    constructor(Farbe, AnzahlTueren, Treibstoff) {
+        this.Farbe = Farbe;
+        this.AnzahlTueren = AnzahlTueren;
+        this.Treibstoff = Treibstoff;
+    }
+}
+ ( compare)
+function compairCars(Auto1, Auto2) {
+    return (
+        Auto1.Farbe === Auto2.Farbe &&
+        Auto1.AnzahlTueren === Auto2.AnzahlTueren &&
+        Auto1.Treibstoff !== Auto2.Treibstoff
+    );
+}
+
+
+let Auto1 = new Auto("Blau", 4, "Benzin");
+let Auto2 = new Auto("Rot", 4, "Diesel");
+
+console.log(compairCars(Auto1, Auto2));
 
