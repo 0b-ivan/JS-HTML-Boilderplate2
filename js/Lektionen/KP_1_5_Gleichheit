@@ -41,3 +41,26 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+
+const employeeA= {
+    name: "John",
+    age: 31,
+    position: "Project Manager"
+};
+
+const employeeB = {
+    name: "Anne",
+    age: 28,
+    position: "Project Mangager"
+};
+
+function compareEmployees(employee1, employee2){
+    return (
+        employee1.name === employee2.name &&
+        employee1.age !== employee2.age &&
+        employee1.position === employee1.position
+    )
+};
+
+const vergleich = compareEmployees(employeeA, employeeB);
+console.log(vergleich);
