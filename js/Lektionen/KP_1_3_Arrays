@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 // JavaScript unterstützt auch Arrays (numerisch indexierte Listen) mit Werten:
 let primes = [2, 3, 5, 7]; // Ein Array mit 4 Werten, begrenzt durch [ und ].
 primes[0]                  // => 2: Das erste Element (Index 0) des Arrays.
