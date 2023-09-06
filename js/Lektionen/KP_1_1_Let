@@ -23,3 +23,4 @@ x = true;           // BOOLEAN
 x = false;          // BOOLEAN
 x = null;           // ABWENHEIT EINES WERTES
 x = undefined;      // keine Zuweisung
+//hmmmm
