@@ -1,4 +1,3 @@
-#!/usr/bin/env node
 /*
 BEISPIEL
 */
@@ -14,6 +13,7 @@ Beschreibe die Art des Datentyps
 ###############################################
 */
 
+// test
 
 x = 1;              // INTEGER
 x = 0.01;           // FLOAT
