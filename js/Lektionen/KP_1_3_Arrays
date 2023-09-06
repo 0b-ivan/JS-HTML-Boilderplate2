@@ -20,8 +20,28 @@ davon in einer funktion
 
 ###############################################
 */
-
 //EXPANSION
+
+
+let numbers = []
+
+
+for (let i = 1; i <= 25; i++) {
+    numbers.push(i)
+}
+
+console.log("Voher:", numbers)
+
+function addFiveNumbers(numbers) {
+    let sum = 0
+    for (let i = 0; i < 5; i++) {
+        sum += numbers[i];
+    }
+    return sum;
+}
+
+console.log("Nachher:", numbers)
+
 
 // Arrays und Objekte können andere Arrays und Objekte enthalten:
 let points = [             // Ein Array mit 2 Elementen.
@@ -42,3 +62,17 @@ Lege ein Array mit 10 Objekten aus KP_1_2. an.
 ###############################################
 */
 
+// Ein Array mit 10 Objekten erstellen
+let objectArray = []
+
+for (let i = 1; i <= 10; i++) {
+    let newObj = {
+        id: i,
+        name: `Objekt ${i}`,
+        description: `Das ist ein Objekt ${i}`
+    };
+    objectArray.push(newObj)
+}
+
+// Das Array mit den 10 Objekten anzeigen
+console.log(objectArray);
