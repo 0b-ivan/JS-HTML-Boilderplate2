@@ -41,3 +41,32 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+
+// Funktion zur Baumvergleich
+function vergleicheBaeume(eiche, fichte) {
+    return eiche.Art === "Eiche" && fichte.Art === "Fichte" && eiche.Hoehe === fichte.Hoehe && eiche.Blattart !== fichte.Blattart;
+}
+
+// Baumobjekte
+const eicheBaum = {
+    Art: "Eiche",
+    Hoehe: 10,
+    Blattart: "Breit"
+};
+
+const fichteBaum = {
+    Art: "Fichte",
+    Hoehe: 10,
+    Blattart: "Spitz"
+};
+
+// Vergleich der Bäume
+const sindGleich = vergleicheBaeume(eicheBaum, fichteBaum);
+
+// Ausgabe des Ergebnisses
+if (sindGleich) {
+    console.log("Die Bäume sind gleich.");
+} else {
+    console.log("Die Bäume sind unterschiedlich.");
+}
+
