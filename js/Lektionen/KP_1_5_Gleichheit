@@ -46,8 +46,7 @@ function compairCars (Auto1,Auto2)
 ###############################################
 <<<<<<< HEAD
 */
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 
 class Auto {
@@ -130,5 +129,4 @@ let Auto1 = new Auto("Blau", 4, "Benzin");
 let Auto2 = new Auto("Rot", 4, "Diesel");
 
 console.log(compairCars(Auto1, Auto2));
- HEAD
- d18732e (Gleichheit70b4390 ( compare
+
