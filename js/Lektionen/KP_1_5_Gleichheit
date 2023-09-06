@@ -1,6 +1,12 @@
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
+
+let a = "foo", d = "bar";
+//stelle in einem array -> 16 bit 
+
+(a==b) // =>true
+(a===b) // => false
 // Gleichheitstests.
 x === y                    // => false: Gleichheit.
 x !== y                    // => true: Ungleichheit.
@@ -27,7 +33,7 @@ erstellten Objekts verglichen werden.
 
 zb. !!***(Psuedo-code)***!!
 function compairCars (Auto1,Auto2)
-{
+
     return
     (
         Auto1.Farbe == Auto2.Farbe &&
@@ -39,3 +45,63 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+
+
+class Auto {
+
+    #marke = "defaultMark";
+    #modell = "defaultModel";
+    #baujahr = 1800;
+
+    constructor(marke, modell, baujahr) {
+      this.marke = marke;
+      this.modell = modell;
+      this.baujahr = baujahr;
+    }
+
+    compairCars(auto) {
+        return (
+            auto.getMarke ===  this.#marke &&
+            auto.getModell === this.#modell &&
+            auto.getBaujahr !== this.#baujahr
+        );
+    }
+
+    getMarke(){
+        return this.#marke;
+    }
+    
+    getModell(){
+        return this.#modell;
+    }
+
+    getBaujahr(){
+        return this.#baujahr;
+    }
+
+
+
+  }
+
+
+function  compairCars(auto1,auto2){
+    return (
+        auto1.marke ===  auto2.marke &&
+        auto1.modell === auto2.modell &&
+        auto1.baujahr !== auto2.baujahr
+    );
+}
+
+
+auto1 = new Auto("BMW","320","1989");
+auto2 = new Auto("Audi","A3","1960");
+
+auto1.marke = "hyndai";
+
+console.log(auto1.compairCars(auto2));
+
+
+
+
+
+
