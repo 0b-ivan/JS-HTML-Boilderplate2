@@ -4,6 +4,8 @@
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 // Gleichheitstests.
+
+/*
 x === y                    // => false: Gleichheit.
 x !== y                    // => true: Ungleichheit.
 x < y                      // => true: kleiner als.
@@ -19,7 +21,7 @@ false === (x > y)          // => true: false ist gleich false.
 // || ist OR (ODER).
 !(x === y)                 // => true: ! invertiert einen booleschen Wert.
 
-/*
+
 AUFGABEN BEREICH
 ###############################################
 
@@ -37,7 +39,26 @@ function compairCars (Auto1,Auto2)
         Auto1.Treibstoff != Auto2.Treibstoff
         )
 }
-      
+*/      
 
-###############################################
-*/
+class Car {
+    constructor(Farbe, Tueren, Treibstoff) {
+    this.Farbe = Farbe
+    this.Tueren = Tueren
+    this.Treibstoff = Treibstoff
+}
+}
+
+let Auto1 = new Car("rot", 4, "Benzin")
+let Auto2 = new Car("blau", 2, "Diesel")
+
+function compareCars(a, b) {
+    return (
+        a.Farbe == b.Farbe &&
+        a.Tueren == b.Tueren &&
+        a.Treibstoff != b.Treibstoff
+    )
+}
+
+
+console.log(compareCars(Auto1, Auto2))
