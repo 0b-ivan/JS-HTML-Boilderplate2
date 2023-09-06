@@ -2,7 +2,7 @@
 
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
-let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
+/*let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 // Gleichheitstests.
 x === y                    // => false: Gleichheit.
 x !== y                    // => true: Ungleichheit.
@@ -41,3 +41,22 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+
+const pullover1 = {
+    color: "Rot",
+    size: "XXL",
+    material: "Cotton"
+  };
+  
+  const pullover2 = {
+    color: "Blue",
+    size: "S",
+    material: "Latex"
+  };
+  
+  function comparePullovers(pullover1, pullover2) {
+    return (pullover1.color === pullover2.color);
+  }
+  
+  console.log(comparePullovers(pullover1, pullover2));
+  
