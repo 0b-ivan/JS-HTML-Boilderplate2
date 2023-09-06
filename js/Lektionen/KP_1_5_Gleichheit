@@ -52,4 +52,4 @@ function compairCars(auto1,auto2){
 auto1 = new Auto("BMW")
 auto2 = new Auto("Audi")
 
-console.log({auto1.compairCars(auto2));
+console.log(auto1.compairCars(auto2));
