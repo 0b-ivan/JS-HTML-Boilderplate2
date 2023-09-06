@@ -108,8 +108,7 @@ console.log(auto1.compairCars(auto2));
 
 
 
-=======
-=======
+
 class Auto {
     constructor(Farbe, AnzahlTueren, Treibstoff) {
         this.Farbe = Farbe;
@@ -117,8 +116,7 @@ class Auto {
         this.Treibstoff = Treibstoff;
     }
 }
-
->>>>>>> 70b4390 ( compare)
+ ( compare)
 function compairCars(Auto1, Auto2) {
     return (
         Auto1.Farbe === Auto2.Farbe &&
@@ -132,10 +130,5 @@ let Auto1 = new Auto("Blau", 4, "Benzin");
 let Auto2 = new Auto("Rot", 4, "Diesel");
 
 console.log(compairCars(Auto1, Auto2));
-<<<<<<< HEAD
->>>>>>> d18732e (Gleichheit)
-=======
->>>>>>> 70b4390 ( compare)
-=======
-*/
->>>>>>> 834329ef831179da3acf4ec2f6a74da6be60a09e
+ HEAD
+ d18732e (Gleichheit70b4390 ( compare
