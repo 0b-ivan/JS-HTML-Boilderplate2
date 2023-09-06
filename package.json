@@ -1,10 +1,10 @@
 {
-  "name": " ",
+  "name": "js-html-boilderplate",
   "version": "0.0.1",
-  "description": "",
-  "keywords": "",
-  "license": "",
-  "author": "",
+  "description": "Willkommen zu meinem HTML/JS Boilerplate HelloWorld Projekt! Dieses Projekt bietet eine einfache Ausgangsbasis, um mit HTML und JavaScript zu arbeiten und deine ersten Schritte in der Webentwicklung zu machen. Dieses Projekt dient als einfaches Beispiel für ein HTML und JavaScript Boilerplate, um ein \"Hello, World!\" Projekt zu erstellen.",
+  "keywords": [],
+  "license": "ISC",
+  "author": "Ivan Babayev",
   "scripts": {
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
@@ -12,6 +12,18 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  }
+    "parcel-bundler": "^1.8.1"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechstarterGmbH/JS-HTML-Boilderplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechstarterGmbH/JS-HTML-Boilderplate/issues"
+  },
+  "homepage": "https://github.com/TechstarterGmbH/JS-HTML-Boilderplate#readme"
 }

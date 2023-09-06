@@ -1,0 +1,26 @@
+/*
+BEISPIEL
+*/
+
+let x;  //Eine Variable namens x deklarieren
+
+/*
+AUFGABEN BEREICH
+###############################################
+
+Beschreibe die Art des Datentyps
+
+###############################################
+*/
+
+// test
+
+x = 1;              // INTEGER
+x = 0.01;           // FLOAT
+x = "hello world";  // STRING
+x = 'JavaScript';   // STRING
+x = true;           // BOOLEAN
+x = false;          // BOOLEAN
+x = null;           // ABWENHEIT EINES WERTES
+x = undefined;      // keine Zuweisung
+//hmmmm

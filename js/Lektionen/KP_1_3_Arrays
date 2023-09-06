@@ -1,0 +1,78 @@
+#!/usr/bin/env node
+// JavaScript unterstützt auch Arrays (numerisch indexierte Listen) mit Werten:
+let primes = [2, 3, 5, 7]; // Ein Array mit 4 Werten, begrenzt durch [ und ].
+primes[0]                  // => 2: Das erste Element (Index 0) des Arrays.
+primes.length              // => 4: Anzahl der Elemente im Array.
+primes[primes.length-1]    // => 7: Das letzte Element des Arrays.
+primes[4] = 9;             // Ein neues Element durch Zuweisen hinzufügen.
+primes[4] = 11;            // Oder ein vorhandenes Element durch Zuweisen
+// verändern.
+let empty = [];            // [] ist ein leeres Array ohne Elemente.
+empty.length               // => 0“
+
+
+/*
+AUFGABEN BEREICH
+###############################################
+
+Erzeuge ein array mit 25 Zahlen und addiere 5 
+davon in einer funktion
+
+###############################################
+*/
+//EXPANSION
+
+
+let numbers = []
+
+
+for (let i = 1; i <= 25; i++) {
+    numbers.push(i)
+}
+
+console.log("Voher:", numbers)
+
+function addFiveNumbers(numbers) {
+    let sum = 0
+    for (let i = 0; i < 5; i++) {
+        sum += numbers[i];
+    }
+    return sum;
+}
+
+console.log("Nachher:", numbers)
+
+
+// Arrays und Objekte können andere Arrays und Objekte enthalten:
+let points = [             // Ein Array mit 2 Elementen.
+{x: 0, y: 0},          // Jedes Element ist ein Objekt.
+{x: 1, y: 1}
+];
+let data = {                 // Ein Objekt mit 2 Eigenschaften.
+trial1: [[1,2], [3,4]],  // Der Wert jeder Eigenschaft ist ein Array.
+trial2: [[2,3], [4,5]]   // Die Elemente der Arrays sind Arrays.
+};
+
+/*
+AUFGABEN BEREICH
+###############################################
+
+Lege ein Array mit 10 Objekten aus KP_1_2. an.
+
+###############################################
+*/
+
+// Ein Array mit 10 Objekten erstellen
+let objectArray = []
+
+for (let i = 1; i <= 10; i++) {
+    let newObj = {
+        id: i,
+        name: `Objekt ${i}`,
+        description: `Das ist ein Objekt ${i}`
+    };
+    objectArray.push(newObj)
+}
+
+// Das Array mit den 10 Objekten anzeigen
+console.log(objectArray);
