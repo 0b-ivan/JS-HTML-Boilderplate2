@@ -47,6 +47,17 @@ function compairCars (Auto1,Auto2)
 */
 
 
+function compairComputer(Computer1, Computer2) {
+    return (
+        Computer1.Marke === Computer2.Marke &&
+        Computer1.RAM === Computer2.RAM &&
+        Computer1.Festplattenkapazität === Computer2.Festplattenkapazität &&
+        Computer1.Preis === Computer2.Preis
+    );
+}
+
+
+
 class Auto {
 
     _marke = "defaultMark";
