@@ -1,8 +1,8 @@
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
-<<<<<<< HEAD
+
 //let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
-=======
+
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 
 let a = "foo", d = "bar";
@@ -10,7 +10,7 @@ let a = "foo", d = "bar";
 
 (a==b) // =>true
 (a===b) // => false
->>>>>>> dev-edu
+
 // Gleichheitstests.
 //x === y                    // => false: Gleichheit.
 //x !== y                    // => true: Ungleichheit.
@@ -50,7 +50,7 @@ function compairCars (Auto1,Auto2)
 ###############################################
 */
 
-<<<<<<< HEAD
+
 
 
 
@@ -76,7 +76,7 @@ let Auto2 = {
 };
 
 console.log(compairCars(Auto1, Auto2));
-=======
+
 class Auto {
 
     #marke = "defaultMark";
@@ -129,11 +129,3 @@ auto2 = new Auto("Audi","A3","1960");
 auto1.marke = "hyndai";
 
 console.log(auto1.compairCars(auto2));
-
-
-
-
-
-
-
->>>>>>> dev-edu
