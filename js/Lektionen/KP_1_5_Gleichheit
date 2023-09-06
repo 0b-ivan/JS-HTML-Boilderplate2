@@ -42,9 +42,13 @@ function compairCars (Auto1,Auto2)
 ###############################################
 */
 
+
 // Funktion zur Baumvergleich
 function vergleicheBaeume(eiche, fichte) {
-    return eiche.Art === "Eiche" && fichte.Art === "Fichte" && eiche.Hoehe === fichte.Hoehe && eiche.Blattart !== fichte.Blattart;
+    return eiche.Art === "Eiche" && 
+    fichte.Art === "Fichte" && 
+    eiche.Hoehe === fichte.Hoehe &&
+    eiche.Blattart !== fichte.Blattart;
 }
 
 // Baumobjekte
