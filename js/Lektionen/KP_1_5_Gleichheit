@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+/*
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
@@ -41,3 +41,20 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+
+const pullover1 = {
+    color: 'red',
+    size: 'm',
+    material: 'cotton'
+}
+
+const pullover2 = {
+    color: 'blue',
+    size: 's',
+    material: 'latex'
+}
+
+let comparePullover = (pullover1, pullover2) => pullover1.color === pullover2.color
+
+
+console.log(comparePullover(pullover1, pullover2))
