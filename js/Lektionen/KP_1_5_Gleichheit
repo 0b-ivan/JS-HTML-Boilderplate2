@@ -41,3 +41,19 @@ function compairCars (Auto1,Auto2)
 
 ###############################################
 */
+const book = {name: "Duden", seiten: 5000, farbe: "blau"}
+
+function Book(name, seiten, farbe) {
+    this.name = name
+    this.seiten = seiten
+    this.farbe = farbe
+}
+const book2 = new Book("JavaSkript", 900, "weiß")
+console.log(book)
+console.log(book2)
+function vergleich(book, book2) {
+    return book.seiten > book2.seiten
+    
+}
+const kleiner = vergleich(book, book2)
+console.log(kleiner)
