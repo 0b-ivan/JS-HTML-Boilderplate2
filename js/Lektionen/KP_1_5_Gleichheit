@@ -3,7 +3,7 @@
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 
 let a = "foo", d = "bar";
-//stelle in einem array -> 16 bit 
+//stelle in einem array -> 16 bit
 
 (a==b) // =>true
 (a===b) // => false
@@ -46,9 +46,6 @@ function compairCars (Auto1,Auto2)
 ###############################################
 */
 
-<<<<<<< HEAD
-=======
-
 class Auto {
 
     #marke = "defaultMark";
@@ -72,7 +69,7 @@ class Auto {
     getMarke(){
         return this.#marke;
     }
-    
+
     getModell(){
         return this.#modell;
     }
@@ -107,4 +104,4 @@ console.log(auto1.compairCars(auto2));
 
 
 
->>>>>>> dfbc215aafb90725f5c05dfa96962e3beb7cf7a1
+
