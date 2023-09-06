@@ -1,10 +1,8 @@
-#!/usr/bin/env node
-
 /* 
 Operatoren agieren auf Werten (den Operanden), um einen neuen Wert zu erzeugen.
 Arithmetische Operatoren gehören zu den einfachsten Operatoren:
 */
-let opt;
+
 3 + 2                      // => 5: Addition
 3 - 2                      // => 1: Subtraktion
 3 * 2                      // => 6: Multiplikation
