@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /*
 BEISPIEL
 */
@@ -14,11 +15,11 @@ Beschreibe die Art des Datentyps
 */
 
 
-x = 1;              //
-x = 0.01;           //
-x = "hello world";  //
-x = 'JavaScript';   //
-x = true;           //
-x = false;          //
-x = null;           //
-x = undefined;      //
+x = 1;              // INTEGER
+x = 0.01;           // FLOAT
+x = "hello world";  // STRING
+x = 'JavaScript';   // STRING
+x = true;           // BOOLEAN
+x = false;          // BOOLEAN
+x = null;           // ABWENHEIT EINES WERTES
+x = undefined;      // keine Zuweisung

@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 /* 
 
 Der wichtigste Datentyp in JavaScript ist das Objekt.
@@ -34,3 +35,15 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+let techstudent = {
+
+    Vorname: "Timour",
+    Nachname: "Miagol",
+    age: 27,
+    Student: true,
+    address: {
+    Straße: "Schönaustraße 32",
+    Stadt: " Düsseldorf"
+    }
+    
+    };
