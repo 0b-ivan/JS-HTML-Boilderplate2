@@ -14,6 +14,10 @@ Beschreibe die Art des Datentyps
 */
 
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 834329ef831179da3acf4ec2f6a74da6be60a09e
 x = 1; - Ganzzahl (integer)
     x = 0.01; - Gleitkommazahl (float)
     x = "hello world"; - Zeichenkette (string)
@@ -22,3 +26,16 @@ x = 1; - Ganzzahl (integer)
     x = false; - Wahrheitswert (boolean)
     x = null; - Nullwert (null)
     x = undefined; - Undefinierter Wert (undefined)
+<<<<<<< HEAD
+=======
+=======
+x = 1;              //
+x = 0.01;           //
+x = "hello world";  //
+x = 'JavaScript';   //
+x = true;           //
+x = false;          //
+x = null;           //
+x = undefined;      //
+>>>>>>> 87db4eae37c86ff8c6fe3cd5240897d98165fb4a
+>>>>>>> 834329ef831179da3acf4ec2f6a74da6be60a09e

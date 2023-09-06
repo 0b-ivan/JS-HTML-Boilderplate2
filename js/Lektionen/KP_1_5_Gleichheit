@@ -44,6 +44,7 @@ function compairCars (Auto1,Auto2)
       
 
 ###############################################
+<<<<<<< HEAD
 */
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -135,3 +136,6 @@ console.log(compairCars(Auto1, Auto2));
 >>>>>>> d18732e (Gleichheit)
 =======
 >>>>>>> 70b4390 ( compare)
+=======
+*/
+>>>>>>> 834329ef831179da3acf4ec2f6a74da6be60a09e
