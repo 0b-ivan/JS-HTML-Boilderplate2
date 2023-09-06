@@ -1,5 +1,6 @@
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
 // kleiner als, größer als usw. sind. Sie werden zu true oder false ausgewertet.
+<<<<<<< HEAD
 let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 
 let a = "foo", d = "bar";
@@ -7,6 +8,9 @@ let a = "foo", d = "bar";
 
 (a==b) // =>true
 (a===b) // => false
+=======
+/*let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
+>>>>>>> 4b7b299 (compare Arberat Dushi)
 // Gleichheitstests.
 x === y                    // => false: Gleichheit.
 x !== y                    // => true: Ungleichheit.
