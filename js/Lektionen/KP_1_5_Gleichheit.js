@@ -1,3 +1,4 @@
+/*
 #!/usr/bin/env node
 
 // Gleichheits- und Relationsoperatoren prüfen, ob zwei Werte gleich, ungleich,
@@ -18,26 +19,25 @@ false === (x > y)          // => true: false ist gleich false.
 (x > 3) || (y < 3)         // => false: Keiner der Vergleiche ist wahr.
 // || ist OR (ODER).
 !(x === y)                 // => true: ! invertiert einen booleschen Wert.
-
-/*
-AUFGABEN BEREICH
-###############################################
-
-Versuche eine Funktion zu schreiben
-in der 2-3 Werte eines zuvor
-erstellten Objekts verglichen werden.
-
-zb. !!***(Psuedo-code)***!!
-function compairCars (Auto1,Auto2)
-{
-    return
-    (
-        Auto1.Farbe == Auto2.Farbe &&
-        Auto1.AnzahlTueren == Auto2.AnzahlTueren &&
-        Auto1.Treibstoff != Auto2.Treibstoff
-        )
-}
-      
-
-###############################################
 */
+
+
+
+
+
+function compareIceCreamFlavors(iceCream1, iceCream2) {
+    const validFlavors = ["Erdbeere", "Vanille", "Stracciatella", "Schokolade"];
+    
+    if (
+        validFlavors.includes(iceCream1) &&
+        validFlavors.includes(iceCream2)
+    ) {
+        return iceCream1 === iceCream2;// vergleicht die Cremearten
+    }
+    
+    return false;
+}
+
+console.log(compareIceCreamFlavors("Erdbeere", "Vanille")); // flasch 
+console.log(compareIceCreamFlavors("Schokolade", "Schokolade")); // richtig
+console.log(compareIceCreamFlavors("Stracciatella", "Erdbeere")); // falsch
