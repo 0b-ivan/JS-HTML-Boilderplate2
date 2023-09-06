@@ -5,8 +5,8 @@ let x = 2, y = 3;          // Diese =-Zeichen sind Zuweisungen, keine
 let a = "foo", d = "bar";
 //stelle in einem array -> 16 bit 
 
-(a==b) // =>true
-(a===b) // => false
+// a==b // =>true
+// a===b // => false
 // Gleichheitstests.
 x === y                    // => false: Gleichheit.
 x !== y                    // => true: Ungleichheit.
@@ -18,10 +18,10 @@ x >= y                     // => false: größer als oder gleich.
 "two" > "three"            // => true: "tw" ist alphabetisch größer als "th".
 false === (x > y)          // => true: false ist gleich false.
 // Logische Operatoren kombinieren oder invertieren boolesche Werte:
-(x === 2) && (y === 3)     // => true: Beide Vergleiche sind wahr. && ist AND (UND).
-(x > 3) || (y < 3)         // => false: Keiner der Vergleiche ist wahr.
+//(x === 2) && (y === 3)     // => true: Beide Vergleiche sind wahr. && ist AND (UND).
+//(x > 3) || (y < 3)         // => false: Keiner der Vergleiche ist wahr.
 // || ist OR (ODER).
-!(x === y)                 // => true: ! invertiert einen booleschen Wert.
+//!(x === y)                 // => true: ! invertiert einen booleschen Wert.
 
 /*
 AUFGABEN BEREICH
@@ -49,37 +49,51 @@ function compairCars (Auto1,Auto2)
 
 class Auto {
 
-    #marke = "defaultMark";
-    #modell = "defaultModel";
-    #baujahr = 1800;
+    _marke = "defaultMark";
+    _modell = "defaultModel";
+    _baujahr = 1800;
 
     constructor(marke, modell, baujahr) {
-      this.marke = marke;
-      this.modell = modell;
-      this.baujahr = baujahr;
+      this._marke = marke;
+      this._modell = modell;
+      this._baujahr = baujahr;
     }
 
     compairCars(auto) {
         return (
-            auto.getMarke ===  this.#marke &&
-            auto.getModell === this.#modell &&
-            auto.getBaujahr !== this.#baujahr
+            auto.marke ===  this._marke &&
+            auto.modell === this._modell &&
+            auto.baujahr === this._baujahr
         );
     }
 
-    getMarke(){
-        return this.#marke;
+    get marke(){
+        return this._marke;
     }
     
-    getModell(){
-        return this.#modell;
+    get modell(){
+        return this._modell;
     }
 
-    getBaujahr(){
-        return this.#baujahr;
+    get baujahr(){
+        return this._baujahr;
     }
 
+    set modell(modell){
+        this._modell=modell.toLocaleUpperCase();
 
+      
+    }
+
+    set baujahr(baujahr){
+
+        if (baujahr >= 1890 && baujahr <= 2023){
+           this._baujahr=baujahr
+        }
+        else{
+            console.error("kein gültiges baujahr")
+        }
+    }
 
   }
 
@@ -88,20 +102,22 @@ function  compairCars(auto1,auto2){
     return (
         auto1.marke ===  auto2.marke &&
         auto1.modell === auto2.modell &&
-        auto1.baujahr !== auto2.baujahr
+        auto1.baujahr === auto2.baujahr
     );
 }
 
 
-auto1 = new Auto("BMW","320","1989");
+auto1 = new Auto("Mercedes","320",1830);
+auto3 = new Auto("BMW","320","1989");
 auto2 = new Auto("Audi","A3","1960");
 
-auto1.marke = "hyndai";
 
 console.log(auto1.compairCars(auto2));
-
-
-
-
-
-
+console.log(auto1.compairCars(auto3));
+auto1._baujahr = 1820;
+console.log(auto1.baujahr);
+console.log(auto1._marke.charAt(0))
+;
+console.log(auto1._marke.substring(1,4));
+console.log(auto1._marke.indexOf("d"));
+console.log(auto1._marke.includes("edde"));
