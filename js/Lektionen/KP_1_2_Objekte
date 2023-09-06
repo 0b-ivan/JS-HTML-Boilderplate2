@@ -34,3 +34,9 @@ Erzeuge ein eigens Objekt wie im Beispiel
 */
 
 
+let person = {
+    vorName: "Max",
+    nachName: "Muster",
+    alter: 30,
+    hobbies: ["lesen","schwimmen","wandern"]
+};
